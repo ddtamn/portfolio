@@ -64,17 +64,7 @@
         color:  var(--font-color);
     }
 
-    .desc {
-        position: fixed;
-        height: 100vh;
-        right: -3rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: rotate(-90deg);
-        opacity: 0.5;
-        font-weight: 400;
-}
+   
 
 
 </style>
