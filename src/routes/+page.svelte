@@ -2,6 +2,7 @@
     import '$lib/global.css'
     import Header from '$lib/Header.svelte';
     import Jumbotron from '$lib/Jumbotron.svelte';
+    import About from '$lib/About.svelte';
     import Fa from 'svelte-fa'
     import {faInstagram ,faGithub, faTwitter, faFacebook} from '@fortawesome/free-brands-svg-icons/index'
 </script>
@@ -24,9 +25,7 @@
         </ul>
     </div>
     <Jumbotron/>
-    <section>
-        <h1>About</h1>
-    </section>
+    <About/>
 </main>
 
 <style>

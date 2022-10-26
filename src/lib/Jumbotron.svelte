@@ -5,7 +5,8 @@
 
 <section>
     <div class="container">
-        <div class="title">ddtamn.</div>
+        <div class="avatar"><img src="portfolio/avatar.png" alt=""></div>
+        <div class="title">ddtamn<span>.</span></div>
         <div class="subtitle">Freelancer</div>
         <p>I'm creative freelancer based in Luwuk Banggai, and I'm very passionate and dedicated to my work.</p>
         <button>Let's Talk <span><Fa icon={faPaperPlane} /></span>  </button>
@@ -27,11 +28,16 @@
         align-items: center;
         height: 100%;
         flex-direction: column;
+        gap: 0.5rem;
     }
 
     .title {
         font-weight: bold;
         font-size: 3rem;
+    }
+
+    .title span {
+        color: var(--primary-color);
     }
 
     .subtitle {
@@ -72,5 +78,20 @@
 
     button span {
         margin-left: 0.5rem;
+    }
+
+    .avatar {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        border: 2px solid var(--primary-color);
+        padding: 1px;
+    }
+
+    .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
     }
 </style>
